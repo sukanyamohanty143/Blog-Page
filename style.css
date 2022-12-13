@@ -1,0 +1,54 @@
+#maincontener{
+    width: 80vw;
+    height: 120vh;
+    border: 0.1em solid black;
+    margin: auto;
+    margin-top: -2vh;
+}
+
+#header{
+    width: 80vw;
+    height: 6vh;
+    background-color: rgb(54, 53, 53);
+}
+
+#contener1{
+    width: 70vw;
+    height: 41vh;
+    background-color: rgb(204, 204, 246);
+    margin-left: 6%;
+    margin-top: 2%;
+}
+#grid-contener{
+    width: 72vw;
+    height: 45vh;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-left: 5%;
+
+
+}
+
+#grid-contener_1,#grid-contener_2,#grid-contener_3{
+    width: 22vw;
+    height: 45vh;
+    margin-left: 4%;
+}
+
+#click{
+    width: 150px;
+    height: 40px;
+}
+
+
+.loginBtn{
+   position: relative;
+   bottom: auto;
+   left: 60%;
+}
+
+.emailbox,.passwordbox{
+    margin-top: 1%;
+    position: relative;
+    left: 60%;
+}
